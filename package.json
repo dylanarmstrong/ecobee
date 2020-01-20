@@ -1,0 +1,10 @@
+{
+  "author": "Dylan Armstrong <dylan@dylan.is>",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "node-fetch": "^2.6.0"
+  },
+  "license": "MIT",
+  "name": "ecobee",
+  "version": "0.1.0"
+}
