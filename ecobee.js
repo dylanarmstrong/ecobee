@@ -29,7 +29,7 @@ if (!fs.existsSync(key_path)) {
   const { access, refresh } = await refresh_token();
   keys.access = access;
   keys.refresh = refresh;
-  // Update keys with new tokens
+  // Update keys.json with new tokens
   await fs.writeJson(key_path, keys, { spaces: 2, EOL: '\n' });
 
   const req = {
